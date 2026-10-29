@@ -2,7 +2,7 @@
 
 ## Overview
 
-An undergraduate economics and machine learning project that forecasts the next available USD/INR exchange-rate observation using historical Reserve Bank of India data.
+A simple machine learning project that forecasts the next available USD/INR exchange-rate observation using historical Reserve Bank of India data.
 
 The project demonstrates data cleaning, exploratory analysis, feature engineering, model training, chronological evaluation, and comparison against a simple benchmark.
 
@@ -36,13 +36,7 @@ Can a Random Forest Regressor forecast the next USD/INR observation more accurat
 
 Lower values indicate better performance. In this holdout evaluation, the naive baseline performed better than the Random Forest. The results show why machine learning forecasts should be compared against simple benchmarks.
 
-## How to Run
 
-1. Open the notebook in Google Colab.
-2. Download the RBI CSV dataset using the source link above.
-3. Upload the CSV when prompted by the notebook.
-4. Run the cells in order.
-5. Review the forecast plots, evaluation metrics, and limitations.
 
 ## Limitations
 
@@ -56,6 +50,4 @@ Lower values indicate better performance. In this holdout evaluation, the naive 
 
 Python | Data Cleaning | Exploratory Data Analysis | Feature Engineering | Scikit-learn | Random Forest | Forecast Evaluation | Economic Interpretation
 
-## Author
 
-Undergraduate economics portfolio project.
